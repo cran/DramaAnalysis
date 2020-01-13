@@ -1,12 +1,13 @@
 Package: DramaAnalysis
 Type: Package
 Title: Analysis of Dramatic Texts
-Version: 3.0.0
-Date: 2019-06-20
-Author: Nils Reiter <nils.reiter@ims.uni-stuttgart.de>, Tim Strohmayer <st151528@stud.uni-stuttgart.de>
+Version: 3.0.1
+Date: 2020-01-11
+Language: en-US
+Author: Nils Reiter <nils.reiter@ims.uni-stuttgart.de>
 Maintainer: Nils Reiter <nils.reiter@ims.uni-stuttgart.de>
 Description: Analysis of preprocessed dramatic texts, with respect to literary research. 
-  The package provides functions to analyse and visualise information about characters,
+  The package provides functions to analyze and visualize information about characters,
   stage directions, the dramatic structure and the text itself.
   The dramatic texts are expected to be in CSV format, which can be installed from within 
   the package, sample texts are provided. The package and the reasoning behind it are described in 
@@ -19,11 +20,11 @@ Imports: stats, utils, reshape2 (>= 1.4.2), readr (>= 1.1.1),
         data.table (>= 1.10.4), httr (>= 1.2.1), git2r (>= 0.24.0),
         xml2 (>= 1.2.0), tokenizers (>= 0.2.1), stringr (>= 1.4.0)
 Depends: R (>= 3.3.0)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Suggests: testthat, fmsb, knitr, magrittr, highcharter, rmarkdown (>=
         1.8), igraph (>= 1.1.2)
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2019-07-03 13:21:24 UTC; reiterns
+Packaged: 2020-01-11 12:23:26 UTC; reiterns
 Repository: CRAN
-Date/Publication: 2019-07-10 12:30:07 UTC
+Date/Publication: 2020-01-13 09:20:18 UTC
